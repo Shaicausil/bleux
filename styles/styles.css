@@ -1,0 +1,556 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+/*barra*/
+header {
+    background-color: #1e172f;
+}
+
+.header-content {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    width: 100%;
+}
+
+
+.header-right nav ul {
+    height: 100%;
+    display: flex;
+    list-style: none;
+}
+
+.header-right nav ul li {
+    width:100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.header-right nav ul li a{
+    color: gray;
+}
+
+
+.header-right nav ul li a:hover{
+    color: white;
+}
+
+.header-right nav ul li button{
+    width:100px;
+    height: 50px;
+    color: white;
+    background: linear-gradient(to right, rgb(177, 4, 177), aqua);
+    border: none;
+    border-radius: 5px;
+}
+
+/*principal*/
+
+.principal-container{
+    display: flex; 
+    height: 700px;
+}
+
+.purple{
+    background-color: #2e2550;
+    width: 50%;
+    padding: 150px 200px;
+    color: white;
+
+}
+
+.purple h1{
+    font-size: 5em;
+
+}
+
+.purple p{
+    margin-top: 50px;
+    
+}
+
+.btn1, .btn2{
+    padding: 12px 30px;
+    border: white solid 1px;
+    background-color: transparent;
+    color: white;
+    border-radius: 5px;
+}
+
+.btn1:hover, .btn2:hover{
+    color: #f31084;
+    background-color: white;
+}
+
+
+.buttons-principal{
+    border: gray solid 1px;
+    width: 280px;
+    padding: 5px;
+    margin-top: 50px;
+   
+}
+
+
+.img-right{
+    background: url(../assets/images/hojasFondo.jpg)left/cover, no-repeat;
+    opacity:0.9;
+    width: 50%;
+    
+}
+
+.img-right img{
+    display: flex;
+    height: 450px;
+    padding: 140px;
+}
+
+/*laptop*/
+.cont-funcionalidades{
+    height: 800px;
+    background-color: #f1f2f7;
+
+}
+
+.containerF{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.cont-funcionalidades h2{
+    color: #f31084;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.img-fun img{
+    padding: 120px;
+    margin-left: 100px;
+    height: 500px;
+}
+
+.alpha{
+    width: 70%;
+}
+
+.text-funcion{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    height: 500px;
+}
+
+.text-funcion h4{
+    color: #f31084;
+    font-size: 40px;
+    font-weight: 40;
+    margin-bottom: 50px;
+}
+
+.text-funcion h3{
+    color: #f31084;
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+.text-funcion ul {
+    margin-top: 10px;
+    list-style:none;
+}
+
+.text-funcion ul li{
+    margin-top: 10px;
+    list-style:none;
+}
+
+
+.alpha i{
+    color: #f31084;
+}
+
+
+/* planes*/
+.pricing {
+    background-color: #1e172f;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    text-align: center;
+}
+
+.pricing h2 {
+    color: white;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.t {
+    color: white;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+
+.containersP {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    gap: 20px; 
+    width: 100%;
+    flex-wrap: wrap; 
+}
+
+.containers-plan {
+    display: flex;
+    justify-content: center;
+    width: 300px; 
+    flex-direction: column;
+    align-items: center;
+    background-color: #f1f2f7;
+    text-align: center; 
+}
+
+
+
+
+.cont-text {
+    list-style: none; 
+    padding: 0;
+}
+
+.cont-text li {     
+    align-items: center;        
+}
+
+.cont-text li i {
+    width: 20px; 
+    text-align: center;
+}
+
+.rosa{
+    color: #f31084;
+    font-weight: bold;
+}
+
+.negrilla{
+    font-weight: bold;
+}
+
+.text1{
+    padding: 30px;
+}
+
+.numeros{
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    background-color: #ddd ;
+}
+
+ .precio{
+    font-size: 30px;
+}
+
+.symbol{
+    font-size: 25px;
+}
+
+.numeros p {
+    font-size:10px ;
+}
+
+.btnPricing {
+    padding: 10px;
+    background-color: #ddd;
+}
+
+.iconos{
+    padding-top: 10px;
+}
+
+.rosaT {
+    color: #f31084;
+}
+
+.cosa{
+    color: #1e172f;
+}
+
+.containers-plan button{
+    height: 40px;
+    width: 120px;
+    background-color: #2e2550;
+    color: white;
+    border-radius: 7px;
+    border: none;
+}
+
+.containers-plan button:hover{
+    background-color: #f31084;
+}
+/*footer*/
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f8f8f8;
+    border-top: 1px solid #ddd;
+}
+
+footer div {
+    display: flex;
+    align-items: center;
+}
+
+footer div span {
+    color: #f31084;
+}
+
+footer div:nth-child(2) i {
+    margin-left: 10px;
+    font-size: 20px;
+    color: #f31084;
+}
+
+    @media (max-width: 1279px) {
+    
+    .header-right nav ul li button{
+        width:90px;
+    }
+
+    /*ppal*/
+    .principal-container{
+        height: 600px;
+    }
+
+    .purple{
+        padding: 80px;
+
+    }
+
+    .purple h1{
+        font-size: 4rem;
+    }
+
+
+    .img-right img{
+        width: 150px;
+        height: 300px;
+    }
+
+    /*laptop*/
+
+    .cont-funcionalidades{
+        height: 600px;
+    }
+    
+    .img-fun img{
+        height: 200px;
+    }
+
+    /*planes*/
+
+    .containersP{
+        gap: 6px;
+    }
+    
+    .containers-plan{
+        width: 290px;
+    }
+
+
+    }
+
+    @media (max-width:920px) {
+
+        /*ppal*/
+
+        .img-right img{
+           padding-left: 20px;
+        }
+
+        /*laptop*/
+
+        .img-fun img{
+            padding: 10px;
+        }
+
+        .alpha{
+            padding-top: 20px;
+        }
+
+        /*planes*/
+
+        .pricing{
+            height: 900px;
+        }
+
+        .containers-plan{
+            width: 200px;
+        }
+
+        .text1{
+            font-size: small;
+        }
+
+    }
+
+    @media (max-width:768px) {
+        /*barra*/
+
+        .logo img {
+            height:40px; 
+        }
+
+        .header-right nav ul li{
+            width: 70px;
+        }
+
+        .header-right nav ul li a{
+            font-size: 10px;
+        }
+
+        .header-right nav ul li button{
+            width: 60px;
+            height: 40px;
+            font-size: 10px;
+        }
+
+        /*ppal*/
+        .principal-container{
+            height: 500px;
+        }
+
+        .purple{
+            width: 160px;
+            padding-left: 20px;
+        }
+
+        .purple h1{
+            font-size: 2em;
+        }
+
+        .img-right img{
+            height: 140px;
+            width: 55px;
+        }
+
+        .buttons-principal{
+            width: 200px;
+            border: none;
+
+        }
+
+    
+       /*funcionalidades*/
+       .img-fun img{
+        height: 150px;
+        width: 200px;
+        margin-left: 20px;
+       }
+
+
+
+       /*pricing*/
+       .pricing{
+        height: 1800px;
+    }
+
+        .t{
+        font-size: 15px;
+    }
+
+        .containersP{
+        flex-direction: column;
+        gap: 8px;
+    } 
+        .containers-plan{
+        width: 300px;
+    }
+
+    
+       /*footer*/
+
+       footer{
+        font-size: 15px;
+        }
+    }
+
+    @media (max-width:480px) {
+
+        /*barra*/
+
+        .header-right nav ul li{
+            width: 50px;
+        }
+
+        .header-right nav ul li a{
+            font-size: 8px;
+        }
+
+        .header-right nav ul li button{
+            width: 55px;
+            height: 30px;
+            font-size: 8px;
+        }
+
+        /*ppal*/
+
+        .principal-container{
+            height: 450px;
+        }
+
+        .img-right img{
+           
+            position: absolute;
+            width: 60px;
+            height: 150px;
+            padding: 20px 20px;
+            padding-top: 100px;
+        }
+
+        /*laptop*/
+        .cont-funcionalidades{
+            height: 900px;
+        }
+
+        .cont-funcionalidades h2{
+            font-size: 2.5rem;
+
+        }
+
+        .containerF{
+            flex-direction: column;
+        }
+
+        .img-fun img{
+            padding-top: 20px;
+
+        }
+
+        .alpha{
+            text-align: center;
+        }
+
+        /*footer*/
+
+        footer{
+            font-size: 10px;
+        }
+    }
